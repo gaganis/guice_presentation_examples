@@ -1,0 +1,8 @@
+digraph { 
+                Worker [shape=box]
+                Door [shape=box]
+                Wood [shape=box]
+		Worker -> Door; 
+                Worker -> Wood;
+		Door -> Wood; 
+	} 

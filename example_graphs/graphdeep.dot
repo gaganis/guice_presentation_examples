@@ -1,0 +1,20 @@
+digraph { 
+rankdir="LR"
+{
+rank=same
+		X 
+                A [shape=box]
+}
+{
+                B [shape=box]
+                C [shape=box]
+                D [shape=box]
+                E [shape=box]
+}
+		A -> B; 
+		B -> C; 
+		C -> D; 
+		D -> E; 
+                X -> A [color=red,style=dotted]  ;
+                E -> X [color=red] ; 
+	} 

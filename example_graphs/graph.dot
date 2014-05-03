@@ -1,0 +1,10 @@
+digraph { 
+                Worker [shape=box]
+                DoorFactory [shape=box]
+                Door [shape=box]
+                Wood [shape=box]
+		Worker -> DoorFactory; 
+                DoorFactory -> Wood;
+                DoorFactory -> Door;
+		Door -> Wood; 
+	} 
